@@ -1,0 +1,29 @@
+/* Apply style to all <p> tags */
+p {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Class applied to multiple elements */
+.highlight {
+  color: #007acc;
+  font-weight: bold;
+}
+
+/* ID selector applied to one element */
+#header {
+  background-color: #f9f9f9;
+  padding: 20px; /* box model */
+  border-bottom: 2px solid #ccc; /* box model */
+}
+
+/* Hover effect for <a> tags */
+a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cc0000;
+  text-decoration: underline;
+}
